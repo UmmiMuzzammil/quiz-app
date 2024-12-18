@@ -1,0 +1,116 @@
+.container {
+    width: 90%;
+    max-width: 750px;
+    margin: 100px auto 0;
+    margin-top: 150px;
+    background: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+
+.container h1 {
+    font-size: 29px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 24px;
+    color: #001e4d;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.content ul li {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 15px;
+    border: 2.4px solid #686868;
+    border-radius: 5px;
+    margin-bottom: 27px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.content ul li:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Correct and Wrong Styles with Higher Specificity */
+.content ul li.correct,
+.content ul li.correct:hover {
+    border-color: #dffff2;
+    background-color: #a0f8c6;
+    color: #262626;
+}
+
+.content ul li.wrong,
+.content ul li.wrong:hover {
+    border-color: #FFEBEB;
+    background-color: #ee8a8a;
+    color: #262626;
+}
+
+.content button {
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    width: 180px;
+    border: 0;
+    padding: 15px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+}
+
+
+/* Styles for Result Page */
+.result-page {
+    width: 90%;
+    max-width: 500px;
+    background: #ffffff;
+    color: #001e4d;
+    text-align: center;
+    padding: 40px 30px;
+    border-radius: 8px;
+}
+
+
+.result-page p {
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: -30px;
+    margin-left: -60px;
+    padding-right: 150px;
+    font-weight: 600;
+}
+
+.result-page button {
+    background: #002855;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-le: 140px;
+}
+
